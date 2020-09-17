@@ -7,6 +7,25 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   overflow-x: hidden;
+  .life{
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    padding: 4px;
+  }
+  .container{
+    border: 1px solid thistle;
+    height: 100%;
+    width: 100%;
+  }
+  .footer{
+    left: 90px;
+    height: 80px;
+    background-color: #AEA2F6;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+  }
 }
 
 code {
@@ -21,23 +40,4 @@ code {
   /* background-color: aqua  ; */
   text-align: center;
   border-radius: 8px;
-}
-.life{
-  margin: 10px;
-  border-radius: 8px;
-  border: 1px solid gray;
-  padding: 4px;
-}
-.container{
-  border: 1px solid thistle;
-  height: 100%;
-  width: 100%;
-}
-.footer{
-  left: 90px;
-  height: 80px;
-  background-color: #AEA2F6;
-  position: fixed;
-  bottom: 0;
-  right: 0;
 }

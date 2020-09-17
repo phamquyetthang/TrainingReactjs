@@ -121,6 +121,7 @@ const Container: React.FC<Props> = (props) => {
   return (
     <div className="container">
       <button onClick={props.click1}>Bấm để đổi màu Header</button>
+      <input type="text" hidden defaultValue={process.env.REACT_APP_SOMETHING2}/>
       <AddList>
         <input
           placeholder="Nhập việc cần làm"
@@ -146,6 +147,7 @@ const Container: React.FC<Props> = (props) => {
           //     <button onClick={() => dispatch({type: ActionTypes.DELETE, id: item.id, value: ""})}>Dele</button>
           // </Todo>
           <TodoItem
+            key = {item.id}
             color={color}
             workitem={item}
             isDone={() =>

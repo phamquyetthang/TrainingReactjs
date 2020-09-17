@@ -1,9 +1,11 @@
 import React from 'react'
-
-const Footer : React.FC = () => {
+interface Props{
+    title: string,
+}
+const Footer : React.FC<Props> = (props) => {
     return (
         <div className="footer">
-            
+            {props.title}
         </div>
     )
 }

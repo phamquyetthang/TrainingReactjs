@@ -112,7 +112,7 @@ const AddList = styled.div`
   }
 `;
 
-const Container: React.FC<Props> = (props) => {
+const TodoList: React.FC<Props> = (props) => {
   const [state, dispatch] = useReducer<React.Reducer<TypeState, TypeAction>>(
     reducer,
     initTd
@@ -162,7 +162,7 @@ const Container: React.FC<Props> = (props) => {
     </div>
   );
 };
-export default Container;
+export default TodoList;
 interface CProps {
   color: string;
   workitem: TodoObject;

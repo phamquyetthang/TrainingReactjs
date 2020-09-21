@@ -2,9 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.css';
 import './index.scss';
-import './dist/css/skins/_all-skins.css';
-import './dist/css/AdminLTE.css';
-import './dist/css/color-palette.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
